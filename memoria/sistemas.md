@@ -23,3 +23,11 @@
 - Estado: **no accesible** desde las sesiones en la nube.
 - Opciones: sincronizar las carpetas necesarias con SharePoint/OneDrive, o ejecutar
   Claude Code en el propio servidor con Remote Control.
+
+## Limitaciones detectadas (20/10/2026)
+
+- `outlook_send_draft` no envía borradores de respuesta que llevan imágenes en línea del
+  hilo (firmas). Para responder: `outlook_send_mail` con asunto `RE: <asunto>` y los mismos
+  destinatarios/cc, y borrar el borrador fallido. La respuesta no queda enhebrada.
+- El buzón ya usa categorías `URBANZ · Gestionado` y `Prioridad 🟠 Alta / 🟡 Media`
+  (otro sistema de clasificación existente); no tocarlas.

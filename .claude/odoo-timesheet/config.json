@@ -1,0 +1,13 @@
+{
+  "odoo_url": "",
+  "odoo_db": "",
+  "odoo_user": "",
+  "odoo_password": "",
+  "project_id": null,
+  "employee_id": null,
+  "ai_matching": "claude_code",
+  "auto_create_task": true,
+  "min_duration_seconds": 30,
+  "task_name_prefix": "",
+  "scripts_path": "/root/.claude/plugins/synced/60828e7b-b5a1-46b6-8b59-31e32a3fcf4d_2beeda9e-39e4-47d0-b143-e74bc96bc034/8aa7f383-5797-4441-9884-8400bd58d849/scripts"
+}
