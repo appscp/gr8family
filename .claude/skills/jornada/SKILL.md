@@ -13,8 +13,10 @@ Argumento: `inicio` (08:45), `seguimiento` (13:45) o `cierre` (18:55). Hora de M
    y el `registro/` de hoy y del último día laborable.
 2. Carga las herramientas con ToolSearch: `+Microsoft_365` (y `odoo` si
    `memoria/sistemas.md` indica Odoo configurado).
-3. **Lee el canal de mando**: chat de Teams indicado en `memoria/sistemas.md`. Todo
-   mensaje de Jose posterior a tu último mensaje es una orden o corrección:
+3. **Lee el canal de mando**: chat de Teams indicado en `memoria/sistemas.md` (localiza
+   los mensajes con `chat_message_search` y ábrelos con `read_resource`
+   `teams:///chats/48%3Anotes/messages/<id>`). Todo mensaje que no empiece por `🤖`
+   posterior a tu último mensaje es de Jose y es una orden o corrección:
    - Orden → ejecútala en este turno (respetando límites duros salvo que la orden sea
      explícita sobre ese caso concreto).
    - Corrección de una acción tuya → deshazla o rectifícala si es posible (p. ej. correo
