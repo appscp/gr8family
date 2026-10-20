@@ -1,13 +1,13 @@
 # Estado — compromisos y seguimientos abiertos
 
+> Los expedientes con agente propio llevan su estado en `proyectos/<clave>/estado.md` (hoy: SUS C2).
+
 | Proyecto | Tarea | Responsable | Vence | Recordatorios | Origen |
 |---|---|---|---|---|---|
 | Fuenteheridos (GEOJET) | Firma contrato de obra: incluir project y penalización 1.000 €/día | Jose / Fernando / David Oliva | 2026-10-20 | 0 | Correo F. Vergel 19/10 |
 | Avda. Italia 59 | Decidir PC01–PC09 (135.085,63 €; falta PC07; PC09 es error de medición) | Jose | 2026-10-20 | 0 | R. Moreda 19/10 |
 | Avda. Italia 59 | Confirmar a R. Moreda hora y lugar de la reunión | Jose | 2026-10-20 | 0 | R. Moreda 19/10 |
 | We Living Bormujos | Reenviar PDF liquidación acometida exp. 3933 a Elena | Carlos Longoria | 2026-10-20 | 0 | Correo agente 20/10 |
-| SUS C2 | Reunión Modificado en obra | Jose, Altuna y Uria, Laura, Javi | 2026-10-23 08:30 | — | Agenda |
-| SUS C2 | Corregir doc. cierre arqueología (exp. 360/2025, DR 09/07/2025, dir. C. Batanero) | Jose/Laura (por confirmar) | — | 0 | Ánfora 19/10 |
 | Torres (Quiveu) | Revisión 0 de mediciones | J.M. Quiveu | 2026-10-22 | 0 | Acta 15/10 |
 | Torres (Quiveu) | Definir cocinas y armarios; decidir peto (prefabricado vs multipanel) y jardineras | Jose / Antonio Gallego | — | 0 | Acta 15/10 |
 | Torres (Quiveu) | Carpinterías interiores, pódium/PB, acabados | Alejandro Alarcón | — | 0 | Acta 15/10 |

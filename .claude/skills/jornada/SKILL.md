@@ -22,6 +22,8 @@ Argumento: `inicio` (08:45), `seguimiento` (13:45) o `cierre` (18:55). Hora de M
    - Corrección de una acción tuya → deshazla o rectifícala si es posible (p. ej. correo
      de rectificación) y añade la regla a `memoria/instrucciones.md`.
    - Confirma brevemente en el mismo chat: `🤖 Recibido: …`.
+   - Los mensajes que empiezan por `[<NOMBRE>]` de un expediente con agente
+     (ver `CLAUDE.md`) son de ese agente: no los ejecutes.
 
 ## 1. Correo (Outlook)
 
@@ -39,6 +41,9 @@ Para cada hilo clasifica:
 
 No dejes un correo de cliente, socio o profesional sin respuesta más de un día laborable
 sin motivo anotado.
+
+Hilos de un expediente con agente propio (palabras clave en `proyectos/<clave>/ficha.md`):
+no actúes; los gestiona su agente.
 
 ## 2. Proyectos y obras
 
@@ -79,6 +84,7 @@ Mensaje con este formato, conciso (cada punto una línea):
 
 🔴 Requiere tu decisión
 1. <asunto> — <qué hay que decidir> — <borrador preparado / enlace>
+   (incluye los borradores para cliente pendientes en `proyectos/*/estado.md`)
 
 ✅ Hecho hoy (<n> acciones)
 - <proyecto>: <acción> → <persona>

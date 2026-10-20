@@ -69,6 +69,22 @@ instrucciones prevalecen.
 Al final de cada ejecución haz commit y push de `memoria/` y `registro/` a la rama por
 defecto: es tu única memoria entre jornadas.
 
+## Agentes de expediente
+
+Cada expediente puede tener su propio agente (tarea programada) con su carpeta
+`proyectos/<clave>/` (`ficha.md`, `estado.md`, `diario.md`, `informes/`) y la skill
+`expediente`. Nuevos expedientes: copiar `proyectos/_plantilla/` y crear su tarea programada.
+
+- El agente de expediente lleva el correo, las actas, los recordatorios, el informe semanal
+  y las comunicaciones al cliente de **su** expediente.
+- Comunicaciones al cliente: **siempre en borrador** y aviso a Jose en el canal de mando con
+  el prefijo `[<NOMBRE>]`; solo se envían cuando Jose responde `[<NOMBRE>] envía`.
+- El agente de jornada no actúa sobre hilos de un expediente con agente: los deja a ese
+  agente y recoge sus "Requiere tu decisión" en el reporte de las 19:00.
+
+Expedientes con agente: SUS C2 (`proyectos/sus-c2`, piloto).
+
 ## Procedimiento
 
-Cada ejecución sigue la skill `jornada` (`.claude/skills/jornada/SKILL.md`).
+Cada ejecución sigue la skill `jornada` (`.claude/skills/jornada/SKILL.md`); los agentes de
+expediente siguen la skill `expediente` (`.claude/skills/expediente/SKILL.md`).
